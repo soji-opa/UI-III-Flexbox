@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* code for container  */
+
+.container{
+	/* border: 1px red solid; */
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+/* code for header */
+
+header nav{
+	border: 1px red solid;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;		
+}
+
+.link{
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;	
+}
+
+nav a{
+	color: grey;
+	text-decoration: none;
+}
+.logo{
+	width: 25%;
+}
+
+/* code for casing 0 first section  */
+#casing0{
+	width: 100%;
+}
+
+#casing0 .first-section{
+	margin: 7% 0;
+	display: flex;
+	justify-content: space-around;
+}
+.casing0 .first-section div{
+	width: 40% ;
+}
+.first-section .box1{
+	font-size: 50px;
+	text-align: center;
+	padding-right: 0%;
+}
+.first-section button{
+	margin: 0;
+	width: 70%;
+	background-color: white;
+}
+img.img2{
+	padding-left: 20%;
+}
+
+.logo1 img{
+	width: 70%;
+}
+
+/* code for casing 1 second section */
+#casing1{
+	/* border: 1px solid purple; */
+	width: 100%;
+
+}
+
+#casing1 .second-section{
+	display: flex;
+	justify-content: space-between;
+}
+
+#casing1 .second-section div{
+	width: 48%
+}
+
+.middle-img{
+	width: 100%;
+	margin: 3% 0;
+}
+
+/* code for casing 2 third section */
+
+#casing2{
+	width: 100%;
+	/* border: 1px solid blue; */
+}
+
+#casing2 .third-section{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3%;
+}
+
+#casing2 .third-section div{
+	width: 32%;
+}
+
+/* code for footer section */
+footer{
+	margin-top: 3%;
+	margin-bottom: 10%;
+}
+footer .footer-section p:nth-of-type(2){
+	margin: 1.5% 0;
+}
+footer .footer-section p:nth-of-type(3){
+	margin: 1.5% 0;
+}
+footer .footer-section .last-p{
+	margin: 4% 0;
+	text-align: center;
+}
