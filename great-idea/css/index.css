@@ -181,3 +181,161 @@ footer .footer-section .last-p{
 	margin: 4% 0;
 	text-align: center;
 }
+
+/* code for services.html */
+
+.container2{
+	/* border: 1px red solid; */
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+/* code for header section of services html */
+.container2 header nav{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 3% 0;
+	
+}
+.link-service{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+}
+
+/* code for image  */
+.services-header-img{
+	width: 100%;
+	margin-bottom: 3%;
+}
+
+/* code for casing3 first sectionin sevice.html */
+#casing3 .section1-service-html p{
+	width: 100%;
+	display: flex;
+	margin-bottom: 4%;
+	text-align: justify;
+}
+
+/* code for casing4 */
+#casing4{
+	width: 100%;
+	/* box-sizing: border-box; */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 4%;
+	padding-bottom: 1.8%;
+	/* padding: 4% 0; */
+}
+
+/* code for casing4 first-parent */
+
+.first-parent{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.first-parent div{
+	width: 48%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 1.5% 2%;
+	text-align: justify;
+	background-color: rgb(238, 236, 236);
+	margin-bottom: 3%;
+}
+
+.first-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+.second-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+/* code for second parent */
+.second-parent{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.second-parent div{
+	width: 48%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 1.5% 2%;
+	text-align: justify;
+	background-color: rgb(238, 236, 236);
+	margin-bottom: 3%;
+}
+
+.third-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+.fourth-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+/* code for third-parent */
+.third-parent{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.third-parent div{
+	width: 48%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 1.5% 2%;
+	text-align: justify;
+	background-color: rgb(238, 236, 236);
+	margin-bottom: 3%;
+}
+
+.fifth-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
+
+.sixth-child button{
+	margin: 4%;
+    width: 45%;
+	border-radius: 3px;
+	border: .5px solid black;
+    height: 15%;
+    margin-left: auto;
+	background-color: whitesmoke;
+}
