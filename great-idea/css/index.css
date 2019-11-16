@@ -339,3 +339,41 @@ footer .footer-section .last-p{
     margin-left: auto;
 	background-color: whitesmoke;
 }
+
+/* code for the footer section of the services.html */
+.footer-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-container .services-info-img{
+	width: 100%;
+}
+
+.footer-container div{
+	width: 47%;
+	margin-top: 2%;
+}
+.footer-container p{
+	margin-bottom: 5%;
+	text-align: justify;
+}
+
+.footer-container ul{
+	width: 100%;
+	list-style: disc;
+	/* padding-bottom: 2%; */
+	padding-left: 21px;
+}
+.footer-container ul li{
+	
+	padding-bottom: 2%;
+
+}
+
+footer span{
+	display: flex;
+	justify-content: center;
+	margin: 8% 0;
+	font-size: small;
+}
